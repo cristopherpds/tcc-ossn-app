@@ -29,6 +29,7 @@ jobs:
         context: .
         push: true
         tags: ghcr.io/${{ github.repository_owner }}/tcc-ossn-app:${{ github.ref_name }}
+          ghcr.io/${{ github.repository_owner }}/tcc-ossn-app:latest
         labels: |
           org.opencontainers.image.source=${{ github.repository }}
 
@@ -44,7 +45,7 @@ jobs:
     - name: Update image tag in deployment.yml
       run: |
         TAG=${GITHUB_REF##*/}
-        VERSION=${TAG#v}
+        VERSION=${TAG}
         sed -i "s|image: ghcr.io/${{ github.repository_owner }}/tcc-ossn-app:.*|image: ghcr.io/${{ github.repository_owner }}/tcc-ossn-app:$VERSION|" tcc-ops/k8s/deployment.yml
 
     # 7. Commit and push changes

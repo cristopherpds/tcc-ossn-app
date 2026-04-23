@@ -1,4 +1,4 @@
-Open Source Social Network [9.4]
+Open Source Social Network [9.5]
 ======================================
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=102)](https://www.opensource-socialnetwork.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://www.opensource-socialnetwork.org/)
@@ -32,15 +32,15 @@ Visit https://www.opensource-socialnetwork.org/ for more details
 Languages
 ==========
 
-|  |  |  |
-|:-------------------------:|:-------------------------:|:-------------------------:|
-| English |German | Romanian | 
-| French | Portuguese | Turkish |
-| Spanish | Italian | Russian | 
-| Dutch | Hebrew | Greek |
-| Esperanto | Japanese | Indonesian |
-| Traditional Chinese | Korean | Hungarian |
-| Sinhala | Persian  |
+|                     |                     |                    |
+|---------------------|---------------------|--------------------|
+| English             | French              | Spanish            |
+| Italian             | Portuguese          | German             |
+| Dutch               | Turkish             | Russian            |
+| Hebrew              | Greek               | Esperanto          |
+| Japanese            | Korean              | Indonesian         |
+| Traditional Chinese | Sinhala             | Tamil              |
+| Persian             | Hungarian           | Danish             |
 
 Front-End Features
 ===================

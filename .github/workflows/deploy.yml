@@ -29,7 +29,6 @@ jobs:
         context: .
         push: true
         tags: ghcr.io/${{ github.repository_owner }}/tcc-ossn-app:${{ github.ref_name }}
-          ghcr.io/${{ github.repository_owner }}/tcc-ossn-app:latest
         labels: |
           org.opencontainers.image.source=${{ github.repository }}
 

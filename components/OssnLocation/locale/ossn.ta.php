@@ -8,8 +8,8 @@
  * @license   Open Source Social Network License (OSSN LICENSE)  http://www.opensource-socialnetwork.org/licence
  * @link      https://www.opensource-socialnetwork.org/
  */
-$en = array(
+$ta = array(
 		'ossnlocation' => 'OssnLocation',
-		'enter:location' => 'Enter Location',
+		'enter:location' => 'இடம் எது என நிரப்புங்கள்',
 );
-ossn_register_languages('hu', $en);
+ossn_register_languages('ta', $ta);
